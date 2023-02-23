@@ -1,0 +1,195 @@
+.footer-bottom {
+    height: auto;
+    line-height: 32px;
+    padding: 32px 0;
+    margin-top: 32px;
+    color: #ffffff;
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    background-color: #0f346c;
+}
+div{
+    margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+    
+}
+div {
+    display: block;
+}
+.container {
+    width: 1170px;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    /* *zoom: 1; */
+}
+.row-new {
+    margin-left: -1.28205%;
+    margin-right: -1.28205%;
+    /* *zoom: 1; */
+}
+.footer-bottom .row-new ul:first-of-type {
+    margin-left: 3%;
+}
+.footer-nav {
+    float: left;
+    max-width: 140px;
+}
+.col-xs-12
+ {
+    position: relative;
+    min-height: 1px;
+    /* margin-left: 1.28205%; */
+    margin-right: 1.28205%;
+}
+ul {
+    list-style: none;
+}
+ul{
+    margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+}
+ul {
+    display: block;
+    /* list-style-type: disc; */
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.footer-nav>li {
+    margin: 0 13px 0 0;
+}
+li{
+    padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.footer-nav a {
+    display: block;
+    color: #a1bce6;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    /* color: #0f346c; */
+}
+a{
+    margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+            cursor: pointer;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+/* .footer-nav {
+    margin-left: 0;
+}
+.footer-nav {
+    float: left;
+    max-width: 140px;
+} */
+.footer-bottom .row-new .support-info {
+    max-width: 175px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+span{
+    margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+
+}
+.footer-bottom .row-new ul:first-of-type {
+    margin-left: 3%;
+}
+.footer-copy {
+    text-align: right;
+    float: right;
+    margin-right: 3%;
+}
+.col-md-3 {
+    width: 22.4359%;
+}
+.col-md-3,.col-xs-6{
+    position: relative;
+        min-height: 1px;
+        margin-left: 1.28205%;
+}
+.footer-copy .apple-app-store-logo {
+    width: 125px;
+    height: auto;
+    float: right;
+}
+.footer .footer-copy a {
+    margin-left: 15px;
+    display: block;
+    color: #a1bce6;
+}
+.row-new:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.legal-disclaimer {
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    margin-left: 3%;
+    margin-top: 12px;
+}
+.legal-disclaimer p {
+    margin-bottom: 0px;
+}
+p{
+    margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        /* font-size: 100%;
+         */
+         font-size: 13px;
+        vertical-align: baseline;
+    
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.legal-disclaimer a {
+    color: #a1bce6;
+}
+.row-new:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
