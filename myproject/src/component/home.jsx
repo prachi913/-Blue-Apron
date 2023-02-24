@@ -4,7 +4,8 @@ import "./Home.css";
 import { useState } from 'react';
 // import All from './icon';
 // import LargeWithAppLinksAndSocial from "./footer"
-import { Icon } from './icon';
+// import { Icon } from './icon';
+import IIcon from './IIcon';
 import { Footer } from './footer';
 const getdata = () => {
   return fetch("http://localhost:3000/meals")
@@ -216,7 +217,7 @@ const Home = () => {
 
       <div>
         <div>
-          <Icon/>
+          <IIcon/>
         </div>
         
       

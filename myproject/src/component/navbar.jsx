@@ -30,11 +30,7 @@ export default function Navbar() {
       >
         <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
           <Link to="/">
-            <Image
-              
-              src="imge.jpeg"
-              alt="kl"
-            />
+            <Image src={"imge"} alt="" />
           </Link>
 
           <Stack
@@ -44,17 +40,20 @@ export default function Navbar() {
             direction={"row"}
             spacing={6}
           >
-            <Box as={"a"} fontSize={"sm"} fontWeight={400} href={"/login"}>
-              H
+            <Box as={"a"} fontSize={"sm"} fontWeight={400} href={"/on-the-menu"}>
+              ON-THE-MENU
             </Box>
-            <Box as={"a"} fontSize={"sm"} fontWeight={400} href={"/login"}>
-              K
+            <Box as={"a"} fontSize={"sm"} fontWeight={400} href={"/pricing"}>
+              PRICING
             </Box>
-            <Box as={"a"} fontSize={"sm"} fontWeight={400} href={"/login"}>
-              K
+            <Box as={"a"} fontSize={"sm"} fontWeight={400} href={"/wine"}>
+              WINE
             </Box>
-            <Box as={"a"} fontSize={"sm"} fontWeight={400} href={"/login"}>
-              L
+            <Box as={"a"} fontSize={"sm"} fontWeight={400} href={"/gifts"}>
+              GIFTS
+            </Box>
+            <Box as={"a"} fontSize={"sm"} fontWeight={400} href={"/market"}>
+              MARKET
             </Box>
           </Stack>
         </Flex>
