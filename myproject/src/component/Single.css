@@ -1,0 +1,826 @@
+.owl-container {
+    overflow-x: hidden;
+}
+.container {
+    width: 1170px;
+    margin-right: auto;
+        margin-left: auto;
+}
+div{
+    margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+}
+.healthv2 .section-recipe {
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+.section-recipe.recipe-main {
+    margin-top: 25px;
+    padding-bottom: 56px;
+}
+.section-recipe {
+    /* margin-top: 15px; */
+    padding-left: 0;
+    padding-right: 0;
+}
+.section-recipe {
+    border-bottom: 1px solid #e4e6eb;
+}
+.row
+ {
+    margin-left: -1.28205%;
+    margin-right: -1.28205%;
+    /* *zoom: 1; */
+}
+section{
+    display: block;
+    
+}
+section{
+    margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+}
+.section-recipe .ba-hero-image {
+    margin-bottom: 30px;
+}
+.col-sm-7 {
+    width: 55.76923%;
+}
+.col-sm-7{
+    float: left;
+    position: relative;
+        min-height: 1px;
+        margin-left: 1.28205%;
+        margin-right: 1.28205%;
+}
+div {
+    display: block;
+}
+.img-max {
+    width: 100%;
+}
+img{
+    margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.section-recipe .ba-hero-image .feature-badge {
+    left: 0;
+    bottom: 25px;
+   
+    width: fit-content;
+    line-height: 40px;
+    padding: 0 22px;
+    top: unset;
+}
+.healthv2 .feature-badge {
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    background-color: #002684;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    /* line-height: 1; */
+    /* padding: 15px 23px; */
+    position: absolute;
+    text-transform: uppercase;
+    /* top: 30px; */
+    right: 0;
+}
+span{
+    margin: 0;
+        /* padding: 0; */
+        border: 0;
+        font: inherit;
+        /* font-size: 100%; */
+        vertical-align: baseline;
+}
+.col-sm-5 {
+    width: 39.10256%;
+    float: left;
+    position: relative;
+        min-height: 1px;
+        margin-left: 1.28205%;
+        margin-right: 1.28205%;
+}
+.healthv2 .ba-recipe-title {
+    margin-bottom: 10px;
+}
+.section-recipe .p-15 {
+    padding: 0;
+}
+.healthv2 .ba-recipe-title__main {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Chronicle Ssm";
+    color: #002c9b;
+    margin-bottom: 12px;
+}
+h1{
+    margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        /* font-size: 100%; */
+        vertical-align: baseline;
+}
+:-webkit-any(article, aside, nav, section) h1 {
+    /* font-size: 1.5em; */
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+h1 {
+    display: block;
+    
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* font-weight: bold; */
+}
+.healthv2 .ba-recipe-title__sub {
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #6a6d75;
+    margin-bottom: 14px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+h2{
+    line-height: 1.2;
+    margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        /* font-size: 100%; */
+        vertical-align: baseline;
+}
+h2 {
+    display: block;
+    /* font-size: 1.5em; */
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* font-weight: bold; */
+}
+.healthv2 .section-recipe .ba-recipe--details {
+    
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    
+    align-items: center;
+}
+.healthv2 .section-recipe .ba-recipe-subtitle__cook-time svg {
+    width: 18px;
+    height: 18px;
+    
+    transform: translateY(-2px);
+}
+.healthv2 .icon-svg--clock {
+    padding-top: 5px;
+   
+    color: #0a9b3e;
+}
+.healthv2 .icon-svg {
+   
+    float: left;
+}
+.icon-svg {
+    /* width: auto; */
+    display: inline;
+}
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+}
+:not(svg) {
+    transform-origin: 0px 0px;
+}
+.healthv2 .icon-svg--clock {
+    
+    color: #0a9b3e;
+}
+.healthv2 .section-recipe .ba-recipe-subtitle__cook-time .total-time {
+    margin-left: 8px;
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 2px;
+    color: #00a0df;
+}
+span{
+    margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        /* font-size: 100%; */
+        vertical-align: baseline;
+}
+span{
+    margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+}
+.recipe-display-price {
+    font-size: 14px;
+}
+.healthv2 .section-recipe .ba-recipe-servings {
+    position: relative;
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    line-height: 1;
+    color: #6a6d75;
+}
+.section-recipe .p-15 {
+    padding: 0;
+}
+.hide {
+    display: none;
+}
+.healthv2 .badge-info-inner {
+    width: 500px;
+    padding: 25px;
+}
+.healthv2 .culinary-badge-container {
+    padding: 20px 20px 0;
+    max-width: 320px;
+}
+.healthv2 .recipe-main__description {
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    color: #595959;
+}
+.section-recipe .p-15 {
+    padding: 0;
+}
+.recipe-main__description {
+    margin-top: 34px;
+   
+}
+.recipe-main__description-title {
+    margin-bottom: 8px;
+    font-size: 19px;
+    line-height: 1.53;
+    color: #303236;
+}
+h4{
+    font-weight: 600;
+        /* line-height: 1.2; */
+        font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+h4{
+    margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        /* font-size: 100%; */
+        vertical-align: baseline;
+}
+h4{
+    
+            display: block;
+            margin-block-start: 1.33em;
+            margin-block-end: 1.33em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            /* font-weight: bold; */
+        
+}
+p {
+    margin-bottom: 15px;
+}
+p{
+    margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+}
+p{
+    display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+}
+.healthv2 .recipe-main__description {
+    color: #595959;
+}
+.healthv2 .recipe-main__description .get-cooking-btn {
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.get-cooking-btn {
+    line-height: 50px;
+}
+.get-cooking-btn {
+    font-size: 16px;
+    /* line-height: 54.72px; */
+    height: 54.72px;
+    padding: 0 40px;
+    /* margin-top: 35px; */
+}
+.btn-orange {
+    background-color: #f26226;
+    border-color: #f26226;
+}
+.btn,
+.btn--orange,
+.btn-orange{
+    border-radius: 2px;
+    display: inline-block;
+        text-decoration: none;
+        border: 0px;
+        font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+        font-weight: 500;
+        text-align: center;
+        color: #fff;
+        /* background-color: #245091; */
+        outline: none;
+        cursor: pointer;
+        position: relative;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+    
+}
+.section-recipe .p-15 {
+    padding: 0;
+}
+.healthv2 .section-recipe .nutrition-list {
+    margin-top: 40px;
+}
+ul {
+    list-style: none;
+}
+ul{
+    margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+}
+ul{
+        display: block;
+            /* list-style-type: disc; */
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;
+        
+}
+.healthv2 .section-recipe .nutrition-list--item__heading {
+    padding: 16px 0;
+}
+.healthv2 .section-recipe .nutrition-list--item {
+    
+    display: flex;
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    -webkit-box-pack: justify;
+    /* -webkit-justify-content: space-between; */
+    /* -ms-flex-pack: justify; */
+    justify-content: space-between;
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1.13;
+    color: #424242;
+    /* padding: 19px 0; */
+    border-bottom: 1px solid #e4e6eb;
+}
+li{
+    margin: 0;
+        /* padding: 0; */
+        border: 0;
+        font: inherit;
+        /* font-size: 100%; */
+        vertical-align: baseline;
+}
+li {
+    /* display: list-item; */
+    text-align: -webkit-match-parent;
+}
+ul {
+    list-style: none;
+}
+.healthv2 .section-recipe .nutrition-list--item .item-title {
+    font-weight: bold;
+}
+.healthv2 .section-recipe .nutrition-list--item__heading .item-title {
+    font-size: 19px;
+    line-height: 1.53;
+    color: #303236;
+}
+.healthv2 .section-recipe .nutrition-list--item__heading .item-value {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.29;
+    color: #6a6d75;
+}
+.healthv2 .section-recipe .view-full-nutrition-container {
+    text-align: center;
+}
+.healthv2 .section-recipe .view-full-nutrition-link {
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 3.21;
+    letter-spacing: 3px;
+    color: #002c9b;
+    padding: 0 24px;
+    margin-top: 16px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 22.5px;
+    text-transform: uppercase;
+    border: 1px solid #e4e6eb;
+}
+.healthv2 .section-recipe .view-full-nutrition-container {
+    text-align: center;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.healthv2 .section-recipe {
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+.section-recipe.p-15 {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.section-recipe {
+    margin-top: 15px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.section-recipe {
+    border-bottom: 1px solid #e4e6eb;
+}
+.healthv2 .ba-section-title {
+    margin-bottom: 25px;
+}
+.healthv2 .ba-section-title__super {
+    font-family: "Chronicle Ssm";
+    font-size: 20px;
+    color: #6a6d75;
+    text-transform: lowercase;
+    margin-bottom: 6px;
+}
+.healthv2 .ba-section-title__main {
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #0f346c;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.healthv2 .recipe-ingredients .rec-area-content {
+    min-height: 375px;
+    position: relative;
+}
+.recipe-ingredients .ba-feature-image {
+    position: relative;
+}
+.col-md-8 {
+    width: 64.10256%;
+   
+}
+.col-md-8{
+    float: left;
+}
+.col-md-8{
+    min-height: 1px;
+        margin-left: 1.28205%;
+        margin-right: 1.28205%;
+}
+.healthv2 .recipe-ingredients .ba-feature-image__hldr {
+    max-width: 700px;
+}
+.img-max {
+    width: 100%;
+}
+.ing-modal {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 417px;
+    /* -webkit-box-sizing: border-box; */
+    box-sizing: border-box;
+    background-color: #ffffff;
+    text-align: left;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border-radius: 2px;
+    /* -webkit-box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 20%); */
+    box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 20%);
+}
+.ing-modal .ing-modal-title {
+    padding: 15px 20px;
+    overflow: hidden;
+    /* *zoom: 1; */
+}
+.ing-modal{
+    text-align: left;
+}
+.ing-modal .ing-modal-title h5 {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    line-height: 1.4;
+    color: #303236;
+    float: left;
+    font-weight: 500;
+}
+h5{
+    padding: 0;
+        border: 0;
+        font: inherit;
+        /* font-size: 100%; */
+        vertical-align: baseline;
+}
+h5{
+    /* display: block; */
+            font-size: 0.83em;
+            margin-block-start: 1.67em;
+            margin-block-end: 1.67em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+}
+.ing-modal .ing-modal-title .close-icon {
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    color: #494d72;
+    float: right;
+    cursor: pointer;
+}
+.col-md-4 {
+    width: 30.76923%;
+}
+.col-md-4{
+    float: left;
+
+}
+.col-md-4{
+    position: relative;
+        min-height: 1px;
+        margin-left: 1.28205%;
+        margin-right: 1.28205%
+}
+.healthv2 .recipe-ingredients .ba-info-list__item {
+    color: #0f346c;
+    line-height: 2.5;
+    font-weight: 500;
+}
+.healthv2 .ba-info-list__item {
+    -webkit-box-flex: 1;
+   
+    flex-grow: 1;
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 16px;
+    /* color: #303236; */
+    list-style: none;
+}
+.healthv2 .recipe-ingredients .non-story {
+    padding: 4px;
+    color: #0f346c;
+}
+.healthv2 .recipe-ingredients .ba-info-list__item span {
+    font-family: "Chronicle Ssm";
+    font-weight: 400;
+    color: #6a6d75;
+    width: 23%;
+    display: inline-block;
+    text-align: right;
+    margin-right: 5px;
+}
+div{
+    font: inherit;
+        font-size: 100%;
+}
+.healthv2 .section-recipe {
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+.section-recipe.p-15 {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.section-recipe {
+    margin-top: 15px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.section-recipe {
+    border-bottom: 1px solid #e4e6eb;
+}
+.healthv2 .ba-section-title {
+    margin-bottom: 25px;
+}
+.col-xs-8 {
+    width: 64.10256%;
+}
+.col-xs-8{
+    float: left;
+}
+.col-xs-8{
+    position: relative;
+        min-height: 1px;
+        margin-left: 1.28205%;
+        margin-right: 1.28205%;
+}
+.healthv2 .ba-section-title__super {
+    font-family: "Chronicle Ssm";
+    font-size: 20px;
+    color: #6a6d75;
+    text-transform: lowercase;
+    margin-bottom: 6px;
+}
+.healthv2 .ba-section-title__main {
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #0f346c;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.header-side-cta {
+    text-align: right;
+}
+.col-xs-4 {
+    width: 30.76923%;
+}
+.col-xs-4{
+    float: left;
+}
+.col-xs-4{
+    position: relative;
+        min-height: 1px;
+        margin-left: 1.28205%;
+        margin-right: 1.28205%;
+
+}
+.header-cook-along-btn {
+    background-color: #002684;
+    border-radius: 28px;
+    color: #ffffff;
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    padding: 14px 19px 16px 14px;
+    letter-spacing: 0.1em;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+.header-cook-along-btn .step-link-text {
+    padding: 0px 10px;
+}
+.header-cook-along-btn .cook-along-triangle-container {
+   
+    line-height: 16px;
+}
+.header-cook-along-btn {
+   
+    color: #ffffff;
+    /* font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; */
+  
+    padding: 14px 19px 16px 14px;
+    letter-spacing: 0.1em;
+    /* line-height: 16px; */
+    text-transform: uppercase;
+}
+.col-md-6 {
+    width: 47.4359%;
+}
+.col-md-6{
+    float: left;
+}
+.col-xs-12{
+    position: relative;
+        min-height: 1px;
+        margin-left: 1.28205%;
+        margin-right: 1.28205%;
+}
+.section-recipe .p-15 {
+    padding: 0;
+}
+.recipe-instructions .step-title-holder {
+    margin-top: 10px;
+}
+.recipe-instructions .step-title-holder {
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 500;
+    color: #002684;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e4e6eb;
+    min-height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+}
+.recipe-instructions .step-number {
+    background-color: #002684;
+    color: #ffffff;
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    padding: 7px 9px;
+    width: 12px;
+    margin-right: 10px;
+    float: left;
+    border-radius: 50%;
+}
+.recipe-instructions .step-title {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    color: #303236;
+    float: left;
+    width: auto;
+}
+
+.recipe-instructions .step-txt {
+    color: #303236;
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+}
+p {
+    margin-bottom: 15px;
+}
+p{
+    margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+strong {
+    font-weight: 700;
+    margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+}
+.recipe-instructions .step-txt {
+    color: #303236;
+}
+.healthv2 .section-recipe {
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+.section-recipe.p-15 {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.section-recipe {
+    margin-top: 15px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.section-recipe {
+    border-bottom: 1px solid #e4e6eb;
+}
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
