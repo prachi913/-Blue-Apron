@@ -7,6 +7,7 @@ import { useState } from 'react';
 // import { Icon } from './icon';
 import IIcon from './IIcon';
 import { Footer } from './footer';
+import { Link } from 'react-router-dom';
 const getdata = () => {
   return fetch("http://localhost:3000/meals")
     .then((res) =>res.json()
@@ -63,13 +64,13 @@ const Home = () => {
               <h1 className="hero-title js-hero-image-title">
                 The meal kit that puts quality first
               </h1>
-              <a
+            <Link
                 className="btn get-cooking-btn"
                 id="splash-get-cooking-btn"
-                href="/pricing"
+                to="/pricing"
               >
                 Get Cookin’
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -95,13 +96,13 @@ const Home = () => {
           Get started for as little as{" "}
           <span className="text-style-1">$7.99 per serving</span>
         </p>
-        <a
+      <Link
           className="btn get-cooking-btn"
           id="splash-get-cooking-btn"
-          href="/pricing"
+          to="/pricing"
         >
           Get Cookin’
-        </a>
+        </Link>
       </section>
       <section class="weekly-options-section">
         <h2 class="section-title"></h2>
@@ -118,19 +119,19 @@ const Home = () => {
             );
           })}
         </div>
-        <a
+      <Link
           class="btn browse-menus-btn"
           onclick="{browseMenuClick}"
           id="browse-menus-btn"
-          href="/on-the-menu"
+          to="/on-the-menu"
         >
           Browse Our Menus
-        </a>
+        </Link>
       </section>
       <section class="testimonial-section">
         <img
           src="https://media.blueapron.com/assets/registration/homepage/cooking-pot.webp?height=600&amp;quality=90"
-          alt="A chef tossing diced carrots into a pot"
+          alt="A chef tossing diced carrots int</Link pot"
           loading="lazy"
         />
         <div class="fixed">
@@ -141,7 +142,7 @@ const Home = () => {
           />
           <p class="title">Celebrating 10 years of happy customers</p>
           <p class="testimonial-text" id="testimonial-text">
-            We love Blue Apron! It eliminates a ton of food waste while allowing
+            We love Blue Apron! It eliminate ton of food waste while allowing
             us to try new things and have tasty meals. Really great quality
             food, awesome flavors, and things we wouldn't otherwise have any
             idea how to create.
@@ -166,22 +167,22 @@ const Home = () => {
             alt="hand holding leaf"
             loading="lazy"
           />
-          <p class="title">We’re proud to be a</p>
+          <p class="title">We’re proud to b</p>
           <p class="sub-title">carbon neutral company</p>
-          <a
+        <Link
             class="carbon-neutral-btn"
             onclick="{carbonClick}"
             id="carbon-neutral-btn"
-            href="https://blog.blueapron.com/carbon-neutral/"
+            to="https://blog.blueapron.com/carbon-neutral/"
           >
             Learn More
-          </a>
+          </Link>
         </div>
       </section>
       <section class="getting-started-section">
         <img
           src="https://media.blueapron.com/assets/registration/homepage/gnocchi-ingredients.webp?height=400&amp;quality=90"
-          alt="A spread of ingredients for a gnocchi dish"
+          alt="A spread of ingredients fo</Link gnocchi dish"
           loading="lazy"
         />
         <div class="fixed">
@@ -190,13 +191,13 @@ const Home = () => {
             for as little as
             <span>$7.99 per serving</span>
           </p>
-          <a
+        <Link
             class="get-cookin btn splash-get-started-btn"
             id="splash-get-started-btn"
-            href="/pricing"
+            to="/pricing"
           >
-            Get Cookin’
-          </a>
+            Get Cookin'
+          </Link>
         </div>
       </section>
       <div
@@ -204,14 +205,14 @@ const Home = () => {
         id="get-started-btn-mobile-container"
         // style="visibility: visible"
       >
-        <a
+      <Link
           class="btn get-cooking-btn-mobile get-started-btn-mobile"
           id="get-started-btn-mobile"
           name="button"
-          href="/pricing"
+          to="/pricing"
         >
           Get Cookin’
-        </a>
+        </Link>
       </div>
       <div class="ios-app-hide" id="body-push"></div>
 

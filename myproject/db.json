@@ -117,8 +117,22 @@
       "link":"READY TO COOK",
       "name":"Oven-Baked Creamy Truffle Gnocchi",
       "title":"with Broccoli, Spinach & Parmesan",
-      "time":"40 MIN"
-      
+      "time":"40 MIN",
+       "IMGIN":"https://media.blueapron.com/recipes/35783/ingredient_images/1674764727-48-0008-9560/0227_2PRE11_large_feature.png",
+    "oz":"12 oz",
+    "aA":" Boneless, Skinless Chicken Thighs",
+    "Tbsp":"1 Tbsp",
+    "stepbystep":"step-by-step",
+    "INSTRUCTIONS":"INSTRUCTIONS",
+    "IM1":"https://media.blueapron.com/recipes/35783/recipe_steps/84074/1674588467-46-0028-9072/0227_2P11_Oven-Baked-Chicken-Thighs9055_Web.jpg?width=512",
+    "Preparetheingredientsmakethebase":"Prepare the ingredients & make the base",
+    "INDE":"Place an oven rack in the center of the oven; preheat to 450°F. Wash and dry the spinach. Carefully rinse the rice (sifting through for any impurities). Drain thoroughly. In the tray, combine the spinach, rice, and mirepoix. Stir to combine. Add 1 cup of water to the tray. Season with salt and pepper; stir to thoroughly combine.",
+    "IM2":"https://media.blueapron.com/recipes/35783/recipe_steps/87168/1674588469-50-0032-5193/0227_2P11_Oven-Baked-Chicken-Thighs9108_Web.jpg?width=512",
+    "Preparethechicken":"2Prepare the chicken & bake the tray",
+    "INDE2":"Pat the chicken dry with paper towels. Season on both sides with salt, pepper, and enough of the spice blend to coat (you may have extra). Place the seasoned chicken in an even layer on top of the prepared base. Tightly cover the tray with foil and bake 40 minutes. Leaving the oven on, remove from the oven. Carefully remove the foil. Add the cheese in an even layer. Return to the oven and bake, uncovered, 5 to 7 minutes, or until the cheese is melted and the chicken is cooked through.* Remove from the oven.",
+    "IM3":"https://media.blueapron.com/recipes/35783/recipe_steps/87169/1674588472-46-0029-6407/0227_2P11_Oven-Baked-Chicken-Thighs9136_Web.jpg?width=512",
+    "MaketheBBQmayoserveyourdish":"3Make the BBQ mayo & serve your dish",
+    "INDE3":"Meanwhile, in a bowl, combine the mayonnaise and barbecue sauce. Serve the baked tray topped with the BBQ mayo and peppers. Enjoy! "
     },
     {
       "id":3,
@@ -164,6 +178,7 @@
       "title":"with Balsamic-Glazed Mushrooms & Shallot",
       "time":"45 MIN",
       "wellness":""
+      
     },{
       "id":2,
       "img":"https://media.blueapron.com/recipes/37087/centered_main_dish_images/1674578094-48-0004-8974/1213_2PP_Seared-Chicken_149_Web.jpg?quality=80&width=800",
