@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import "./Onthe.css"
 // import { Icon } from '@chakra-ui/react'
+import { Link } from "react-router-dom";
 import IIcon from './IIcon'
 import { Footer } from './footer'
 import { Link as RouterLink } from 'react-router-dom'
@@ -136,12 +137,12 @@ const Onthemenu = () => {
               >
                 <span class="t9lDJhwzdcZKrDtgfUL9">Week of February 27th</span>
               </div>
-              <a
+              <Link
                 class="MxFq23yTGUs3dHhvBYeJ SNkK6Ark9JmRypC5TJkI NdO5FRlkE4QuDPCpFm6R DBlWXU92zF7z_vt9ixbv"
-                href="/pricing"
+                to="/pricing"
               >
                 Get cookin’
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -391,8 +392,8 @@ const Onthemenu = () => {
           {data1.map((el) => {
             return (
               <div class="d7eXVr1T6UsgZs2xlsr_">
-                <a
-                  href="/recipes/oven-baked-cheesy-chicken-thighs-with-rice-spinach-bbq-mayo"
+                <Link
+                  to="/recipes/oven-baked-cheesy-chicken-thighs-with-rice-spinach-bbq-mayo"
                   class="pom-Clickable"
                 >
                   <div class="pom-Product" data-testid="Product">
@@ -508,7 +509,7 @@ const Onthemenu = () => {
                       <div class="pom-Product--details-cell"></div>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
             );
           })}
@@ -524,12 +525,12 @@ const Onthemenu = () => {
               >
                 <span class="t9lDJhwzdcZKrDtgfUL9">Week of February 6th</span>
               </div>
-              <a
+              <Link
                 class="MxFq23yTGUs3dHhvBYeJ SNkK6Ark9JmRypC5TJkI NdO5FRlkE4QuDPCpFm6R DBlWXU92zF7z_vt9ixbv"
-                href="/pricing"
+                to="/pricing"
               >
                 Get cookin’
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -538,8 +539,8 @@ const Onthemenu = () => {
             {data2.map((el) => {
               return (
                 <div class="d7eXVr1T6UsgZs2xlsr_">
-                  <a
-                    href="/recipes/oven-baked-cheesy-chicken-thighs-with-rice-spinach-bbq-mayo"
+                  <Link
+                    to="/recipes/oven-baked-cheesy-chicken-thighs-with-rice-spinach-bbq-mayo"
                     class="pom-Clickable"
                   >
                     <div class="pom-Product" data-testid="Product">
@@ -660,7 +661,7 @@ const Onthemenu = () => {
                         <div class="pom-Product--details-cell"></div>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               );
             })}
@@ -677,12 +678,12 @@ const Onthemenu = () => {
               >
                 <span class="t9lDJhwzdcZKrDtgfUL9">Week of February 13th</span>
               </div>
-              <a
+              <Link
                 class="MxFq23yTGUs3dHhvBYeJ SNkK6Ark9JmRypC5TJkI NdO5FRlkE4QuDPCpFm6R DBlWXU92zF7z_vt9ixbv"
-                href="/pricing"
+                to="/pricing"
               >
                 Get cookin’
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -691,8 +692,8 @@ const Onthemenu = () => {
             {data3.map((el) => {
               return (
                 <div class="d7eXVr1T6UsgZs2xlsr_">
-                  <a
-                    href="/recipes/oven-baked-cheesy-chicken-thighs-with-rice-spinach-bbq-mayo"
+                  <Link
+                    to="/recipes/oven-baked-cheesy-chicken-thighs-with-rice-spinach-bbq-mayo"
                     class="pom-Clickable"
                   >
                     <div class="pom-Product" data-testid="Product">
@@ -813,7 +814,7 @@ const Onthemenu = () => {
                         <div class="pom-Product--details-cell"></div>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               );
             })}
@@ -830,12 +831,12 @@ const Onthemenu = () => {
               >
                 <span class="t9lDJhwzdcZKrDtgfUL9">Week of February 20th</span>
               </div>
-              <a
+              <Link
                 class="MxFq23yTGUs3dHhvBYeJ SNkK6Ark9JmRypC5TJkI NdO5FRlkE4QuDPCpFm6R DBlWXU92zF7z_vt9ixbv"
-                href="/pricing"
+                to="/pricing"
               >
                 Get cookin’
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -844,8 +845,8 @@ const Onthemenu = () => {
             {data4.map((el) => {
               return (
                 <div class="d7eXVr1T6UsgZs2xlsr_">
-                  <a
-                    href="/recipes/oven-baked-cheesy-chicken-thighs-with-rice-spinach-bbq-mayo"
+                  <Link
+                    to="/recipes/oven-baked-cheesy-chicken-thighs-with-rice-spinach-bbq-mayo"
                     class="pom-Clickable"
                   >
                     <div class="pom-Product" data-testid="Product">
@@ -966,7 +967,7 @@ const Onthemenu = () => {
                         <div class="pom-Product--details-cell"></div>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               );
             })}
@@ -974,16 +975,16 @@ const Onthemenu = () => {
         </div>
       </div>
       <div class="QhEpJCiEG0g0QxY1T3mc">
-        <a
+        <Link
           class="MxFq23yTGUs3dHhvBYeJ d0h90AMcvhrPntuRmJ2p Et0v2WnMHJzA3RFmgKLG DBlWXU92zF7z_vt9ixbv HOtcKVJl_0ItLIpdBAtT"
-          href="/pricing"
+          to="/pricing"
         >
           Get cookin’
-        </a>
+        </Link>
         <p>Or…</p>
         <p>
           Want to see all our recipes? Check out our{" "}
-          <a href="/cookbook">Cookbook.</a>
+          <Link to="/cookbook">Cookbook.</Link>
         </p>
       </div>
       <div>

@@ -1,97 +1,102 @@
 import React from 'react'
-import {
-  Box,
-  Flex,
-  // Text,
-  // IconButton,
-  Button,
-  Stack,
- Image,
-  useColorModeValue,
- 
-} from "@chakra-ui/react";
+import "./Navar.css"
+
+      import logo from "./logo.jpeg";
+// import { Newnav } from './New folder/Newnav';
+
+// import "./App.css";
+import { useContext } from 'react';
+import { Authcontext } from './Authcontext';
 import { Link } from 'react-router-dom';
 
-export default function Navbar() {
- 
-
+function Navbar() {
+  const {authsta}=useContext(Authcontext)
   return (
-    <Box>
-      <Flex
-        bg={useColorModeValue("white", "gray.800")}
-        color={useColorModeValue("gray.600", "white")}
-        minH={"60px"}
-        py={{ base: 2 }}
-        px={{ base: 4 }}
-        borderBottom={1}
-        borderStyle={"solid"}
-        borderColor={useColorModeValue("gray.200", "gray.900")}
-        align={"center"}
-      >
-        <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
-          <Link to="/">
-            <Image src={"imge"} alt="" />
-          </Link>
-
-          <Stack
-            flex={{ base: 1 }}
-            // justify={"flex-start"}
-            justify={{ base: "center", md: "start" }}
-            direction={"row"}
-            spacing={6}
-          >
-            <Box as={"a"} fontSize={"sm"} fontWeight={400} href={"/on-the-menu"}>
-              ON-THE-MENU
-            </Box>
-            <Box as={"a"} fontSize={"sm"} fontWeight={400} href={"/pricing"}>
-              PRICING
-            </Box>
-            <Box as={"a"} fontSize={"sm"} fontWeight={400} href={"/wine"}>
-              WINE
-            </Box>
-            <Box as={"a"} fontSize={"sm"} fontWeight={400} href={"/gifts"}>
-              GIFTS
-            </Box>
-            <Box as={"a"} fontSize={"sm"} fontWeight={400} href={"/market"}>
-              MARKET
-            </Box>
-          </Stack>
-        </Flex>
-
-        <Stack
-          // flex={{ base: 1}}
-          justify={"flex-end"}
-          direction={"row"}
-          spacing={6}
-        >
-          <Box
-            as={"a"}
-            direction={"row"}
-            fontSize={"sm"}
-            fontWeight={400}
-            // variant={"link"}
-            href={"/login"}
-            // textDecoration={"none"}
-          >
-            Log In
-          </Box>
-          <Button
-            as={"a"}
-            display={{ base: "none", md: "inline-flex" }}
-            fontSize={"sm"}
-            fontWeight={600}
-            color={"white"}
-            bg={"pink.400"}
-            href={"#"}
-            _hover={{
-              bg: "pink.300",
-            }}
-          >
-            Sign Up
-          </Button>
-        </Stack>
-      </Flex>
-    </Box>
+    <div>
+      <div id="pricing-header-container">
+        <div class="DYXrMUKmR3dwcrdVNJmP">
+          <div class="giCWMuzldxbse9N1KGoT">
+            <Link
+              to="/"
+              class="SNu6TYHdGW0qIxpAtWPI"
+              aria-label="Blue Apron Home"
+            >
+              <div
+                // style={{
+                //   height: "70px",
+                //   width: "56px",
+                //   position: "absolute",
+                //   top: "0%",
+                // }}
+                className="logolo"
+              >
+                {" "}
+                <img src={logo} alt="" style={{ width: "100%" }} />
+              </div>
+            </Link>
+            <div class="SMaFKHELS_tSmZhVi3XR">
+              <div class="t4VwiUz_62mmERqTrnQ6">
+                <nav class="SO5TfRgEp8_0RnFVTrMR">
+                  <ul class="JTMXspkP9FmPDRIYF9gS">
+                    <li class="z426_kEiG3fp3o0sMCHZ">
+                      <Link to="/on-the-menu">On The Menu</Link>
+                    </li>
+                    <li class="z426_kEiG3fp3o0sMCHZ">
+                      <Link to="/pricing">Pricing</Link>
+                    </li>
+                    <li class="z426_kEiG3fp3o0sMCHZ">
+                      <Link to="/wine">Wine</Link>
+                    </li>
+                    <li class="z426_kEiG3fp3o0sMCHZ">
+                      <Link to="/gifts">Gifts</Link>
+                    </li>
+                    <li class="z426_kEiG3fp3o0sMCHZ">
+                      <Link to="/market">Market</Link>
+                    </li>
+                  </ul>
+                </nav>
+                <div class="nryhX3ceyrpIG8BLxGoI" role="navigation">
+                  <Link to="/login">
+                    {authsta.token == "QpwL5tke4Pnpja7X4" ? (
+                      authsta.token
+                    ) : (
+                      <b>Log in</b>
+                    )}
+                  </Link>
+                </div>
+                <div class="">
+                  <Link to="/sign-up">
+                    <button
+                      class="pom-Button pom-Button--orange pom-Button--filled pom-Button--small"
+                      type="button"
+                      // style={{
+                      //   height: "40px",
+                      //   fontSize: "8px",
+                      //   fontWeight: "500",
+                      // }}
+                    >
+                      <div class="pom-Button--mouseover"></div>
+                      <span style={{ opacity: 1 }}>
+                        {" "}
+                        {authsta.token == "QpwL5tke4Pnpja7X4" ? (
+                          <b>Log out</b>
+                        ) : (
+                          <b> SIGN UP</b>
+                        )}
+                      </span>
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="IN5OZJUcvYrMwjdonEbW"></div>
+        <div class="z88isszVULgclPALV9AW"></div>
+      </div>
+    </div>
   );
 }
+
+export default Navbar;
 
