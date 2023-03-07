@@ -10,20 +10,32 @@ import {
 } from 'react'
 
 const getdata = () => {
-  return fetch(" http://localhost:3000/onthemenue1").then((res) => res.json());
+  return fetch("https://average-red-vest.cyclic.app/onthemenue1").then((res) =>
+    res.json()
+  );
 }
 
+// https://average-red-vest.cyclic.app
+
 const getdata1 = () => {
-  return fetch(" http://localhost:3000/onthemenue2").then((res) => res.json());
+  return fetch("https://average-red-vest.cyclic.app/onthemenue2").then((res) =>
+    res.json()
+  );
 };
 const getdata2 = () => {
-  return fetch(" http://localhost:3000/onthemenue3").then((res) => res.json());
+  return fetch("https://average-red-vest.cyclic.app/onthemenue3").then((res) =>
+    res.json()
+  );
 };
 const getdata3 = () => {
-  return fetch(" http://localhost:3000/onthemenue4").then((res) => res.json());
+  return fetch(" https://average-red-vest.cyclic.app/onthemenue4").then((res) =>
+    res.json()
+  );
 };
 const getdata4 = () => {
-  return fetch(" http://localhost:3000/onthemenue5").then((res) => res.json());
+  return fetch(" https://average-red-vest.cyclic.app/onthemenue5").then((res) =>
+    res.json()
+  );
 };
 const Onthemenu = () => {
   const [data, setdata] = useState([])
@@ -90,55 +102,55 @@ const Onthemenu = () => {
   }, []);
   return (
     <div>
-      <div class="E5pomWUq2TIWAepZLpsV">
-        <h1 class="fkaA_CePolPrxcyMIQkY">Explore our Menus</h1>
-        <div class="wvHi_sjYe4Dhyp6NQim7">
-          <div class="dTaDD97nEVPLbTPyttCv">
-            <div class="f2M2G20hbw3hmsFVDBzk">
+      <div className="E5pomWUq2TIWAepZLpsV">
+        <h1 className="fkaA_CePolPrxcyMIQkY">Explore our Menus</h1>
+        <div className="wvHi_sjYe4Dhyp6NQim7">
+          <div className="dTaDD97nEVPLbTPyttCv">
+            <div className="f2M2G20hbw3hmsFVDBzk">
               <button
                 type="button"
-                class="awOzVVFPosOE7mwXL0Rt wPFz_8UBm7nveYIzwIZG"
+                className="awOzVVFPosOE7mwXL0Rt wPFz_8UBm7nveYIzwIZG"
               >
-                <span class="ybUe77UacmPh2_JyV5Rl">2 Serving</span>
-                <span class="pSF4_rFB4ihLP0_ifdXA">Signature</span>
+                <span className="ybUe77UacmPh2_JyV5Rl">2 Serving</span>
+                <span className="pSF4_rFB4ihLP0_ifdXA">Signature</span>
               </button>
-              <button type="button" class="awOzVVFPosOE7mwXL0Rt">
-                <span class="ybUe77UacmPh2_JyV5Rl">2 Serving</span>
-                <span class="pSF4_rFB4ihLP0_ifdXA">Vegetarian</span>
+              <button type="button" className="awOzVVFPosOE7mwXL0Rt">
+                <span className="ybUe77UacmPh2_JyV5Rl">2 Serving</span>
+                <span className="pSF4_rFB4ihLP0_ifdXA">Vegetarian</span>
               </button>
-              <button type="button" class="awOzVVFPosOE7mwXL0Rt">
-                <span class="ybUe77UacmPh2_JyV5Rl">2 Serving</span>
-                <span class="pSF4_rFB4ihLP0_ifdXA">Wellness</span>
+              <button type="button" className="awOzVVFPosOE7mwXL0Rt">
+                <span className="ybUe77UacmPh2_JyV5Rl">2 Serving</span>
+                <span className="pSF4_rFB4ihLP0_ifdXA">Wellness</span>
               </button>
-              <button type="button" class="awOzVVFPosOE7mwXL0Rt">
-                <span class="ybUe77UacmPh2_JyV5Rl">4 Serving</span>
-                <span class="pSF4_rFB4ihLP0_ifdXA">Signature for Four</span>
+              <button type="button" className="awOzVVFPosOE7mwXL0Rt">
+                <span className="ybUe77UacmPh2_JyV5Rl">4 Serving</span>
+                <span className="pSF4_rFB4ihLP0_ifdXA">Signature for Four</span>
               </button>
-              <button type="button" class="awOzVVFPosOE7mwXL0Rt">
-                <span class="ybUe77UacmPh2_JyV5Rl">Weekly options</span>
-                <span class="pSF4_rFB4ihLP0_ifdXA">Add-Ons</span>
+              <button type="button" className="awOzVVFPosOE7mwXL0Rt">
+                <span className="ybUe77UacmPh2_JyV5Rl">Weekly options</span>
+                <span className="pSF4_rFB4ihLP0_ifdXA">Add-Ons</span>
               </button>
             </div>
           </div>
         </div>
-        <div class="a55WhTpZ2hIp9cCyM62n">
+        <div className="a55WhTpZ2hIp9cCyM62n">
           Choose from an ever-changing mix of meat, fish, WW Recommended and
           health-conscious offerings.
         </div>
       </div>
 
       <div>
-        <div class="cLLjd0Y1hNVfBOVAfXKe">
-          <div class="EejWNgHNdSu6FqN0lKi6">
-            <div class="QGMezQvYQhgyRw919O7_">
+        <div className="cLLjd0Y1hNVfBOVAfXKe">
+          <div className="EejWNgHNdSu6FqN0lKi6">
+            <div className="QGMezQvYQhgyRw919O7_">
               <div
                 data-testid="weekly-header-text"
-                class="fnkCD6TEBk_6I2WLA_Ly"
+                className="fnkCD6TEBk_6I2WLA_Ly"
               >
-                <span class="t9lDJhwzdcZKrDtgfUL9">Week of February 27th</span>
+                <span className="t9lDJhwzdcZKrDtgfUL9">Week of February 27th</span>
               </div>
               <Link
-                class="MxFq23yTGUs3dHhvBYeJ SNkK6Ark9JmRypC5TJkI NdO5FRlkE4QuDPCpFm6R DBlWXU92zF7z_vt9ixbv"
+                className="MxFq23yTGUs3dHhvBYeJ SNkK6Ark9JmRypC5TJkI NdO5FRlkE4QuDPCpFm6R DBlWXU92zF7z_vt9ixbv"
                 to="/pricing"
               >
                 Get cookin’
@@ -146,19 +158,19 @@ const Onthemenu = () => {
             </div>
           </div>
         </div>
-        <div class="ffRNH334lrO0KXus8lN6 FwR0w70tXbsqjpNUPeEJ">
-          <div class="GTMCIHGlW0cMt8aM_8eF">
+        <div className="ffRNH334lrO0KXus8lN6 FwR0w70tXbsqjpNUPeEJ">
+          <div className="GTMCIHGlW0cMt8aM_8eF">
             {data.map((el) => {
               return (
                 <RouterLink to={`/on-the-menu/${el.id}`}>
-                  <div class="d7eXVr1T6UsgZs2xlsr_">
+                  <div className="d7eXVr1T6UsgZs2xlsr_">
                     
-                      <div class="pom-Product" data-testid="Product">
-                        <div class="pom-Product--header">
-                          <div class="pom-Clickable no-action">
-                            <div class="pom-ProductCard__Icon">
+                      <div className="pom-Product" data-testid="Product">
+                        <div className="pom-Product--header">
+                          <div className="pom-Clickable no-action">
+                            <div className="pom-ProductCard__Icon">
                               <div
-                                class=""
+                                className=""
                                 width="48"
                                 height="48"
                                 rotation="none"
@@ -170,15 +182,15 @@ const Onthemenu = () => {
                             </div>
                           </div>
                           <img
-                            class="pom-Product--image"
+                            className="pom-Product--image"
                             alt={el.name}
                             src={el.img}
                           />
                           <div>
                             {el.link === "" ? null : (
-                              <div class="pom-Product__HeaderBadges">
+                              <div className="pom-Product__HeaderBadges">
                                 <span
-                                  class="pom-FeatureBadge pom-FeatureBadge--redesign pom-FeatureBadge--ready-to-cook"
+                                  className="pom-FeatureBadge pom-FeatureBadge--redesign pom-FeatureBadge--ready-to-cook"
                                   data-id="150"
                                   data-name="ready-to-cook"
                                   data-type="feature"
@@ -189,20 +201,20 @@ const Onthemenu = () => {
                             )}
                           </div>
                         </div>
-                        <div class="pom-Product--details">
-                          <div class="pom-Product--details-cell">
-                            <div class="pom-Product__Title">
+                        <div className="pom-Product--details">
+                          <div className="pom-Product--details-cell">
+                            <div className="pom-Product__Title">
                               <p>{el.name}</p>
                               <p>{el.title}</p>
                             </div>
-                            <div class="pom-Clickable no-action">
+                            <div className="pom-Clickable no-action">
                               <div
-                                class="pom-ProductSpecifications"
+                                className="pom-ProductSpecifications"
                                 style={{ paddingTop: "16px" }}
                               >
-                                <div class="pom-ProductSpecifications--flex__center">
-                                  <div class="pom-CookDuration">
-                                    <span class="">
+                                <div className="pom-ProductSpecifications--flex__center">
+                                  <div className="pom-CookDuration">
+                                    <span className="">
                                       <svg
                                         height="18"
                                         width="18"
@@ -228,7 +240,7 @@ const Onthemenu = () => {
                                       </svg>
                                     </span>
                                     <p
-                                      class="pom-CookDuration__text"
+                                      className="pom-CookDuration__text"
                                       style={{ color: "rgb(0, 160, 223)" }}
                                     >
                                       {el.time}
@@ -238,13 +250,13 @@ const Onthemenu = () => {
                                 <div>
                                   {" "}
                                   {el.wellness === "WELLNESS" ? (
-                                    <div class="pom-ProductSpecifications--campaignSection pom-ProductSpecifications--flex__center pom-ProductSpecifications--divider__vertical">
+                                    <div className="pom-ProductSpecifications--campaignSection pom-ProductSpecifications--flex__center pom-ProductSpecifications--divider__vertical">
                                       <span>
-                                        <div class="pom-CampaignBadge">
+                                        <div className="pom-CampaignBadge">
                                           {el.wellness}
                                         </div>
                                       </span>
-                                      <span class="" style={{ height: "26px" }}>
+                                      <span className="" style={{ height: "26px" }}>
                                         <svg
                                           height="26"
                                           width="26"
@@ -268,7 +280,7 @@ const Onthemenu = () => {
                               </div>
                             </div>
                           </div>
-                          <div class="pom-Product--details-cell"></div>
+                          <div className="pom-Product--details-cell"></div>
                         </div>
                       </div>
                     
@@ -279,57 +291,57 @@ const Onthemenu = () => {
           </div>
         </div>
       </div>
-      <section class="TB6mcnRf5J_h4pqnfqDG" id="isolated-plan-selector">
-        <div class="zcYSPVrNclt6DoCE5x2H">
-          <div class="TbVQLL4FTt_qzDlB2EE2">
+      <section className="TB6mcnRf5J_h4pqnfqDG" id="isolated-plan-selector">
+        <div className="zcYSPVrNclt6DoCE5x2H">
+          <div className="TbVQLL4FTt_qzDlB2EE2">
             <h1>Build your Plan</h1>
-            <small class="_9MKN8Y4HwGCTQWAZDJar">
-              <div class="oPZl22xPaOHAy_kFY2DI">
+            <small className="_9MKN8Y4HwGCTQWAZDJar">
+              <div className="oPZl22xPaOHAy_kFY2DI">
                 You can update your preferences
                 <br />
                 and skip, pause, or cancel at any time.*
               </div>
             </small>
           </div>
-          <div class="xaYxk25HAI86Ok0wu9Ov">
-            <div class="x2k13aY1KbKe3kV17KOa">
-              <div class="dY63RihYImcOv7qPQxRh">Number of servings</div>
+          <div className="xaYxk25HAI86Ok0wu9Ov">
+            <div className="x2k13aY1KbKe3kV17KOa">
+              <div className="dY63RihYImcOv7qPQxRh">Number of servings</div>
               <div data-testid="plan-selector">
                 <ul
                   uit="plan-card-servings-quantity-selector"
-                  class="pom-QuantitySelector pom-QuantitySelector__rounded-large-text"
+                  className="pom-QuantitySelector pom-QuantitySelector__rounded-large-text"
                   data-selected="0"
                   data-length="2"
                   data-type="rounded-large-text"
                   style={{ width: "auto" }}
                 >
-                  <li class="selected" data-testid="selected">
+                  <li className="selected" data-testid="selected">
                     <button type="button">2</button>
                   </li>
-                  <li class="" data-testid="">
+                  <li className="" data-testid="">
                     <button type="button">4</button>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="x2k13aY1KbKe3kV17KOa">
-              <div class="dY63RihYImcOv7qPQxRh">Meals per week</div>
+            <div className="x2k13aY1KbKe3kV17KOa">
+              <div className="dY63RihYImcOv7qPQxRh">Meals per week</div>
               <div data-testid="meals-selector">
                 <ul
                   uit="plan-card-meals-quantity-selector"
-                  class="pom-QuantitySelector pom-QuantitySelector__rounded-large-text"
+                  className="pom-QuantitySelector pom-QuantitySelector__rounded-large-text"
                   data-selected="0"
                   data-length="3"
                   data-type="rounded-large-text"
                   style={{ width: "auto" }}
                 >
-                  <li class="selected" data-testid="selected">
+                  <li className="selected" data-testid="selected">
                     <button type="button">2</button>
                   </li>
-                  <li class="" data-testid="">
+                  <li className="" data-testid="">
                     <button type="button">3</button>
                   </li>
-                  <li class="" data-testid="">
+                  <li className="" data-testid="">
                     <button type="button">4</button>
                   </li>
                 </ul>
@@ -337,13 +349,13 @@ const Onthemenu = () => {
             </div>
           </div>
         </div>
-        <div class="aKIpx79KQczyGVo7O5JE">
-          <div class="ozZpSXeEri4xpBG5Z0N1">
-            <div class="UiSUkdwm0cfOwQBV1AnQ">
-              <div class="njQYyX_6NpI8_rqBjBTy">
-                <div class="KlJId39crii2tCuhvFu9">
+        <div className="aKIpx79KQczyGVo7O5JE">
+          <div className="ozZpSXeEri4xpBG5Z0N1">
+            <div className="UiSUkdwm0cfOwQBV1AnQ">
+              <div className="njQYyX_6NpI8_rqBjBTy">
+                <div className="KlJId39crii2tCuhvFu9">
                   <p
-                    class="UlUrNxTrf_ZhEWTKnUSs"
+                    className="UlUrNxTrf_ZhEWTKnUSs"
                     data-testid="serving-price-value"
                   >
                     <span>
@@ -351,12 +363,12 @@ const Onthemenu = () => {
                     </span>
                   </p>
                 </div>
-                <p class="YqtVJzMpZD1CZtZteWpP">per serving</p>
+                <p className="YqtVJzMpZD1CZtZteWpP">per serving</p>
               </div>
-              <div class="njQYyX_6NpI8_rqBjBTy">
-                <div class="KlJId39crii2tCuhvFu9">
+              <div className="njQYyX_6NpI8_rqBjBTy">
+                <div className="KlJId39crii2tCuhvFu9">
                   <p
-                    class="UlUrNxTrf_ZhEWTKnUSs"
+                    className="UlUrNxTrf_ZhEWTKnUSs"
                     data-testid="shipping-price-value"
                   >
                     <span>
@@ -364,14 +376,14 @@ const Onthemenu = () => {
                     </span>
                   </p>
                 </div>
-                <p class="YqtVJzMpZD1CZtZteWpP">shipping</p>
+                <p className="YqtVJzMpZD1CZtZteWpP">shipping</p>
               </div>
             </div>
             <div></div>
           </div>
-          <div class="rCch2rwblFoMuT5EZMDF">
+          <div className="rCch2rwblFoMuT5EZMDF">
             <button
-              class="pom-Button pom-Button--lightBlue pom-Button--pill-filled pom-Button--card-md"
+              className="pom-Button pom-Button--lightBlue pom-Button--pill-filled pom-Button--card-md"
               id="continue-btn"
               type="button"
               style={{
@@ -380,27 +392,27 @@ const Onthemenu = () => {
                 width: "100%",
               }}
             >
-              <div class="pom-Button--mouseover"></div>
+              <div className="pom-Button--mouseover"></div>
               <span style={{ opacity: "1" }}>continue</span>
             </button>
           </div>
         </div>
       </section>
 
-      <div class="ffRNH334lrO0KXus8lN6 FwR0w70tXbsqjpNUPeEJ">
-        <div class="GTMCIHGlW0cMt8aM_8eF">
+      <div className="ffRNH334lrO0KXus8lN6 FwR0w70tXbsqjpNUPeEJ">
+        <div className="GTMCIHGlW0cMt8aM_8eF">
           {data1.map((el) => {
             return (
-              <div class="d7eXVr1T6UsgZs2xlsr_">
+              <div className="d7eXVr1T6UsgZs2xlsr_">
                 <Link
                   to="/recipes/oven-baked-cheesy-chicken-thighs-with-rice-spinach-bbq-mayo"
-                  class="pom-Clickable"
+                  className="pom-Clickable"
                 >
-                  <div class="pom-Product" data-testid="Product">
-                    <div class="pom-Product--header">
-                      <div class="pom-Clickable no-action">
-                        <div class="pom-ProductCard__Icon">
-                          <div class="" width="48" height="48" rotation="none">
+                  <div className="pom-Product" data-testid="Product">
+                    <div className="pom-Product--header">
+                      <div className="pom-Clickable no-action">
+                        <div className="pom-ProductCard__Icon">
+                          <div className="" width="48" height="48" rotation="none">
                             <svg width="0" height="0">
                               <path d="M0"></path>
                             </svg>
@@ -408,15 +420,15 @@ const Onthemenu = () => {
                         </div>
                       </div>
                       <img
-                        class="pom-Product--image"
+                        className="pom-Product--image"
                         alt={el.name}
                         src={el.img}
                       />
                       <div>
                         {el.link === "" ? null : (
-                          <div class="pom-Product__HeaderBadges">
+                          <div className="pom-Product__HeaderBadges">
                             <span
-                              class="pom-FeatureBadge pom-FeatureBadge--redesign pom-FeatureBadge--ready-to-cook"
+                              className="pom-FeatureBadge pom-FeatureBadge--redesign pom-FeatureBadge--ready-to-cook"
                               data-id="150"
                               data-name="ready-to-cook"
                               data-type="feature"
@@ -427,20 +439,20 @@ const Onthemenu = () => {
                         )}
                       </div>
                     </div>
-                    <div class="pom-Product--details">
-                      <div class="pom-Product--details-cell">
-                        <div class="pom-Product__Title">
+                    <div className="pom-Product--details">
+                      <div className="pom-Product--details-cell">
+                        <div className="pom-Product__Title">
                           <p>{el.name}</p>
                           <p>{el.title}</p>
                         </div>
-                        <div class="pom-Clickable no-action">
+                        <div className="pom-Clickable no-action">
                           <div
-                            class="pom-ProductSpecifications"
+                            className="pom-ProductSpecifications"
                             style={{ paddingTop: "16px" }}
                           >
-                            <div class="pom-ProductSpecifications--flex__center">
-                              <div class="pom-CookDuration">
-                                <span class="">
+                            <div className="pom-ProductSpecifications--flex__center">
+                              <div className="pom-CookDuration">
+                                <span className="">
                                   <svg
                                     height="18"
                                     width="18"
@@ -466,7 +478,7 @@ const Onthemenu = () => {
                                   </svg>
                                 </span>
                                 <p
-                                  class="pom-CookDuration__text"
+                                  className="pom-CookDuration__text"
                                   style={{ color: "rgb(0, 160, 223)" }}
                                 >
                                   {el.time}
@@ -476,13 +488,13 @@ const Onthemenu = () => {
                             <div>
                               {" "}
                               {el.wellness === "WELLNESS" ? (
-                                <div class="pom-ProductSpecifications--campaignSection pom-ProductSpecifications--flex__center pom-ProductSpecifications--divider__vertical">
+                                <div className="pom-ProductSpecifications--campaignSection pom-ProductSpecifications--flex__center pom-ProductSpecifications--divider__vertical">
                                   <span>
-                                    <div class="pom-CampaignBadge">
+                                    <div className="pom-CampaignBadge">
                                       {el.wellness}
                                     </div>
                                   </span>
-                                  <span class="" style={{ height: "26px" }}>
+                                  <span className="" style={{ height: "26px" }}>
                                     <svg
                                       height="26"
                                       width="26"
@@ -506,7 +518,7 @@ const Onthemenu = () => {
                           </div>
                         </div>
                       </div>
-                      <div class="pom-Product--details-cell"></div>
+                      <div className="pom-Product--details-cell"></div>
                     </div>
                   </div>
                 </Link>
@@ -516,17 +528,17 @@ const Onthemenu = () => {
         </div>
       </div>
       <div>
-        <div class="cLLjd0Y1hNVfBOVAfXKe">
-          <div class="EejWNgHNdSu6FqN0lKi6">
-            <div class="QGMezQvYQhgyRw919O7_">
+        <div className="cLLjd0Y1hNVfBOVAfXKe">
+          <div className="EejWNgHNdSu6FqN0lKi6">
+            <div className="QGMezQvYQhgyRw919O7_">
               <div
                 data-testid="weekly-header-text"
-                class="fnkCD6TEBk_6I2WLA_Ly"
+                className="fnkCD6TEBk_6I2WLA_Ly"
               >
-                <span class="t9lDJhwzdcZKrDtgfUL9">Week of February 6th</span>
+                <span className="t9lDJhwzdcZKrDtgfUL9">Week of February 6th</span>
               </div>
               <Link
-                class="MxFq23yTGUs3dHhvBYeJ SNkK6Ark9JmRypC5TJkI NdO5FRlkE4QuDPCpFm6R DBlWXU92zF7z_vt9ixbv"
+                className="MxFq23yTGUs3dHhvBYeJ SNkK6Ark9JmRypC5TJkI NdO5FRlkE4QuDPCpFm6R DBlWXU92zF7z_vt9ixbv"
                 to="/pricing"
               >
                 Get cookin’
@@ -534,21 +546,21 @@ const Onthemenu = () => {
             </div>
           </div>
         </div>
-        <div class="ffRNH334lrO0KXus8lN6 FwR0w70tXbsqjpNUPeEJ">
-          <div class="GTMCIHGlW0cMt8aM_8eF">
+        <div className="ffRNH334lrO0KXus8lN6 FwR0w70tXbsqjpNUPeEJ">
+          <div className="GTMCIHGlW0cMt8aM_8eF">
             {data2.map((el) => {
               return (
-                <div class="d7eXVr1T6UsgZs2xlsr_">
+                <div className="d7eXVr1T6UsgZs2xlsr_">
                   <Link
                     to="/recipes/oven-baked-cheesy-chicken-thighs-with-rice-spinach-bbq-mayo"
-                    class="pom-Clickable"
+                    className="pom-Clickable"
                   >
-                    <div class="pom-Product" data-testid="Product">
-                      <div class="pom-Product--header">
-                        <div class="pom-Clickable no-action">
-                          <div class="pom-ProductCard__Icon">
+                    <div className="pom-Product" data-testid="Product">
+                      <div className="pom-Product--header">
+                        <div className="pom-Clickable no-action">
+                          <div className="pom-ProductCard__Icon">
                             <div
-                              class=""
+                              className=""
                               width="48"
                               height="48"
                               rotation="none"
@@ -560,15 +572,15 @@ const Onthemenu = () => {
                           </div>
                         </div>
                         <img
-                          class="pom-Product--image"
+                          className="pom-Product--image"
                           alt={el.name}
                           src={el.img}
                         />
                         <div>
                           {el.link === "" ? null : (
-                            <div class="pom-Product__HeaderBadges">
+                            <div className="pom-Product__HeaderBadges">
                               <span
-                                class="pom-FeatureBadge pom-FeatureBadge--redesign pom-FeatureBadge--ready-to-cook"
+                                className="pom-FeatureBadge pom-FeatureBadge--redesign pom-FeatureBadge--ready-to-cook"
                                 data-id="150"
                                 data-name="ready-to-cook"
                                 data-type="feature"
@@ -579,20 +591,20 @@ const Onthemenu = () => {
                           )}
                         </div>
                       </div>
-                      <div class="pom-Product--details">
-                        <div class="pom-Product--details-cell">
-                          <div class="pom-Product__Title">
+                      <div className="pom-Product--details">
+                        <div className="pom-Product--details-cell">
+                          <div className="pom-Product__Title">
                             <p>{el.name}</p>
                             <p>{el.title}</p>
                           </div>
-                          <div class="pom-Clickable no-action">
+                          <div className="pom-Clickable no-action">
                             <div
-                              class="pom-ProductSpecifications"
+                              className="pom-ProductSpecifications"
                               style={{ paddingTop: "16px" }}
                             >
-                              <div class="pom-ProductSpecifications--flex__center">
-                                <div class="pom-CookDuration">
-                                  <span class="">
+                              <div className="pom-ProductSpecifications--flex__center">
+                                <div className="pom-CookDuration">
+                                  <span className="">
                                     <svg
                                       height="18"
                                       width="18"
@@ -618,7 +630,7 @@ const Onthemenu = () => {
                                     </svg>
                                   </span>
                                   <p
-                                    class="pom-CookDuration__text"
+                                    className="pom-CookDuration__text"
                                     style={{ color: "rgb(0, 160, 223)" }}
                                   >
                                     {el.time}
@@ -628,13 +640,13 @@ const Onthemenu = () => {
                               <div>
                                 {" "}
                                 {el.wellness === "WELLNESS" ? (
-                                  <div class="pom-ProductSpecifications--campaignSection pom-ProductSpecifications--flex__center pom-ProductSpecifications--divider__vertical">
+                                  <div className="pom-ProductSpecifications--campaignSection pom-ProductSpecifications--flex__center pom-ProductSpecifications--divider__vertical">
                                     <span>
-                                      <div class="pom-CampaignBadge">
+                                      <div className="pom-CampaignBadge">
                                         {el.wellness}
                                       </div>
                                     </span>
-                                    <span class="" style={{ height: "26px" }}>
+                                    <span className="" style={{ height: "26px" }}>
                                       <svg
                                         height="26"
                                         width="26"
@@ -658,7 +670,7 @@ const Onthemenu = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="pom-Product--details-cell"></div>
+                        <div className="pom-Product--details-cell"></div>
                       </div>
                     </div>
                   </Link>
@@ -669,17 +681,17 @@ const Onthemenu = () => {
         </div>
       </div>
       <div>
-        <div class="cLLjd0Y1hNVfBOVAfXKe">
-          <div class="EejWNgHNdSu6FqN0lKi6">
-            <div class="QGMezQvYQhgyRw919O7_">
+        <div className="cLLjd0Y1hNVfBOVAfXKe">
+          <div className="EejWNgHNdSu6FqN0lKi6">
+            <div className="QGMezQvYQhgyRw919O7_">
               <div
                 data-testid="weekly-header-text"
-                class="fnkCD6TEBk_6I2WLA_Ly"
+                className="fnkCD6TEBk_6I2WLA_Ly"
               >
-                <span class="t9lDJhwzdcZKrDtgfUL9">Week of February 13th</span>
+                <span className="t9lDJhwzdcZKrDtgfUL9">Week of February 13th</span>
               </div>
               <Link
-                class="MxFq23yTGUs3dHhvBYeJ SNkK6Ark9JmRypC5TJkI NdO5FRlkE4QuDPCpFm6R DBlWXU92zF7z_vt9ixbv"
+                className="MxFq23yTGUs3dHhvBYeJ SNkK6Ark9JmRypC5TJkI NdO5FRlkE4QuDPCpFm6R DBlWXU92zF7z_vt9ixbv"
                 to="/pricing"
               >
                 Get cookin’
@@ -687,21 +699,21 @@ const Onthemenu = () => {
             </div>
           </div>
         </div>
-        <div class="ffRNH334lrO0KXus8lN6 FwR0w70tXbsqjpNUPeEJ">
-          <div class="GTMCIHGlW0cMt8aM_8eF">
+        <div className="ffRNH334lrO0KXus8lN6 FwR0w70tXbsqjpNUPeEJ">
+          <div className="GTMCIHGlW0cMt8aM_8eF">
             {data3.map((el) => {
               return (
-                <div class="d7eXVr1T6UsgZs2xlsr_">
+                <div className="d7eXVr1T6UsgZs2xlsr_">
                   <Link
                     to="/recipes/oven-baked-cheesy-chicken-thighs-with-rice-spinach-bbq-mayo"
-                    class="pom-Clickable"
+                    className="pom-Clickable"
                   >
-                    <div class="pom-Product" data-testid="Product">
-                      <div class="pom-Product--header">
-                        <div class="pom-Clickable no-action">
-                          <div class="pom-ProductCard__Icon">
+                    <div className="pom-Product" data-testid="Product">
+                      <div className="pom-Product--header">
+                        <div className="pom-Clickable no-action">
+                          <div className="pom-ProductCard__Icon">
                             <div
-                              class=""
+                              className=""
                               width="48"
                               height="48"
                               rotation="none"
@@ -713,15 +725,15 @@ const Onthemenu = () => {
                           </div>
                         </div>
                         <img
-                          class="pom-Product--image"
+                          className="pom-Product--image"
                           alt={el.name}
                           src={el.img}
                         />
                         <div>
                           {el.link === "" ? null : (
-                            <div class="pom-Product__HeaderBadges">
+                            <div className="pom-Product__HeaderBadges">
                               <span
-                                class="pom-FeatureBadge pom-FeatureBadge--redesign pom-FeatureBadge--ready-to-cook"
+                                className="pom-FeatureBadge pom-FeatureBadge--redesign pom-FeatureBadge--ready-to-cook"
                                 data-id="150"
                                 data-name="ready-to-cook"
                                 data-type="feature"
@@ -732,20 +744,20 @@ const Onthemenu = () => {
                           )}
                         </div>
                       </div>
-                      <div class="pom-Product--details">
-                        <div class="pom-Product--details-cell">
-                          <div class="pom-Product__Title">
+                      <div className="pom-Product--details">
+                        <div className="pom-Product--details-cell">
+                          <div className="pom-Product__Title">
                             <p>{el.name}</p>
                             <p>{el.title}</p>
                           </div>
-                          <div class="pom-Clickable no-action">
+                          <div className="pom-Clickable no-action">
                             <div
-                              class="pom-ProductSpecifications"
+                              className="pom-ProductSpecifications"
                               style={{ paddingTop: "16px" }}
                             >
-                              <div class="pom-ProductSpecifications--flex__center">
-                                <div class="pom-CookDuration">
-                                  <span class="">
+                              <div className="pom-ProductSpecifications--flex__center">
+                                <div className="pom-CookDuration">
+                                  <span className="">
                                     <svg
                                       height="18"
                                       width="18"
@@ -771,7 +783,7 @@ const Onthemenu = () => {
                                     </svg>
                                   </span>
                                   <p
-                                    class="pom-CookDuration__text"
+                                    className="pom-CookDuration__text"
                                     style={{ color: "rgb(0, 160, 223)" }}
                                   >
                                     {el.time}
@@ -781,13 +793,13 @@ const Onthemenu = () => {
                               <div>
                                 {" "}
                                 {el.wellness === "WELLNESS" ? (
-                                  <div class="pom-ProductSpecifications--campaignSection pom-ProductSpecifications--flex__center pom-ProductSpecifications--divider__vertical">
+                                  <div className="pom-ProductSpecifications--campaignSection pom-ProductSpecifications--flex__center pom-ProductSpecifications--divider__vertical">
                                     <span>
-                                      <div class="pom-CampaignBadge">
+                                      <div className="pom-CampaignBadge">
                                         {el.wellness}
                                       </div>
                                     </span>
-                                    <span class="" style={{ height: "26px" }}>
+                                    <span className="" style={{ height: "26px" }}>
                                       <svg
                                         height="26"
                                         width="26"
@@ -811,7 +823,7 @@ const Onthemenu = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="pom-Product--details-cell"></div>
+                        <div className="pom-Product--details-cell"></div>
                       </div>
                     </div>
                   </Link>
@@ -822,17 +834,17 @@ const Onthemenu = () => {
         </div>
       </div>
       <div>
-        <div class="cLLjd0Y1hNVfBOVAfXKe">
-          <div class="EejWNgHNdSu6FqN0lKi6">
-            <div class="QGMezQvYQhgyRw919O7_">
+        <div className="cLLjd0Y1hNVfBOVAfXKe">
+          <div className="EejWNgHNdSu6FqN0lKi6">
+            <div className="QGMezQvYQhgyRw919O7_">
               <div
                 data-testid="weekly-header-text"
-                class="fnkCD6TEBk_6I2WLA_Ly"
+                className="fnkCD6TEBk_6I2WLA_Ly"
               >
-                <span class="t9lDJhwzdcZKrDtgfUL9">Week of February 20th</span>
+                <span className="t9lDJhwzdcZKrDtgfUL9">Week of February 20th</span>
               </div>
               <Link
-                class="MxFq23yTGUs3dHhvBYeJ SNkK6Ark9JmRypC5TJkI NdO5FRlkE4QuDPCpFm6R DBlWXU92zF7z_vt9ixbv"
+                className="MxFq23yTGUs3dHhvBYeJ SNkK6Ark9JmRypC5TJkI NdO5FRlkE4QuDPCpFm6R DBlWXU92zF7z_vt9ixbv"
                 to="/pricing"
               >
                 Get cookin’
@@ -840,21 +852,21 @@ const Onthemenu = () => {
             </div>
           </div>
         </div>
-        <div class="ffRNH334lrO0KXus8lN6 FwR0w70tXbsqjpNUPeEJ">
-          <div class="GTMCIHGlW0cMt8aM_8eF">
+        <div className="ffRNH334lrO0KXus8lN6 FwR0w70tXbsqjpNUPeEJ">
+          <div className="GTMCIHGlW0cMt8aM_8eF">
             {data4.map((el) => {
               return (
-                <div class="d7eXVr1T6UsgZs2xlsr_">
+                <div className="d7eXVr1T6UsgZs2xlsr_">
                   <Link
                     to="/recipes/oven-baked-cheesy-chicken-thighs-with-rice-spinach-bbq-mayo"
-                    class="pom-Clickable"
+                    className="pom-Clickable"
                   >
-                    <div class="pom-Product" data-testid="Product">
-                      <div class="pom-Product--header">
-                        <div class="pom-Clickable no-action">
-                          <div class="pom-ProductCard__Icon">
+                    <div className="pom-Product" data-testid="Product">
+                      <div className="pom-Product--header">
+                        <div className="pom-Clickable no-action">
+                          <div className="pom-ProductCard__Icon">
                             <div
-                              class=""
+                              className=""
                               width="48"
                               height="48"
                               rotation="none"
@@ -866,15 +878,15 @@ const Onthemenu = () => {
                           </div>
                         </div>
                         <img
-                          class="pom-Product--image"
+                          className="pom-Product--image"
                           alt={el.name}
                           src={el.img}
                         />
                         <div>
                           {el.link === "" ? null : (
-                            <div class="pom-Product__HeaderBadges">
+                            <div className="pom-Product__HeaderBadges">
                               <span
-                                class="pom-FeatureBadge pom-FeatureBadge--redesign pom-FeatureBadge--ready-to-cook"
+                                className="pom-FeatureBadge pom-FeatureBadge--redesign pom-FeatureBadge--ready-to-cook"
                                 data-id="150"
                                 data-name="ready-to-cook"
                                 data-type="feature"
@@ -885,20 +897,20 @@ const Onthemenu = () => {
                           )}
                         </div>
                       </div>
-                      <div class="pom-Product--details">
-                        <div class="pom-Product--details-cell">
-                          <div class="pom-Product__Title">
+                      <div className="pom-Product--details">
+                        <div className="pom-Product--details-cell">
+                          <div className="pom-Product__Title">
                             <p>{el.name}</p>
                             <p>{el.title}</p>
                           </div>
-                          <div class="pom-Clickable no-action">
+                          <div className="pom-Clickable no-action">
                             <div
-                              class="pom-ProductSpecifications"
+                              className="pom-ProductSpecifications"
                               style={{ paddingTop: "16px" }}
                             >
-                              <div class="pom-ProductSpecifications--flex__center">
-                                <div class="pom-CookDuration">
-                                  <span class="">
+                              <div className="pom-ProductSpecifications--flex__center">
+                                <div className="pom-CookDuration">
+                                  <span className="">
                                     <svg
                                       height="18"
                                       width="18"
@@ -924,7 +936,7 @@ const Onthemenu = () => {
                                     </svg>
                                   </span>
                                   <p
-                                    class="pom-CookDuration__text"
+                                    className="pom-CookDuration__text"
                                     style={{ color: "rgb(0, 160, 223)" }}
                                   >
                                     {el.time}
@@ -934,13 +946,13 @@ const Onthemenu = () => {
                               <div>
                                 {" "}
                                 {el.wellness === "WELLNESS" ? (
-                                  <div class="pom-ProductSpecifications--campaignSection pom-ProductSpecifications--flex__center pom-ProductSpecifications--divider__vertical">
+                                  <div className="pom-ProductSpecifications--campaignSection pom-ProductSpecifications--flex__center pom-ProductSpecifications--divider__vertical">
                                     <span>
-                                      <div class="pom-CampaignBadge">
+                                      <div className="pom-CampaignBadge">
                                         {el.wellness}
                                       </div>
                                     </span>
-                                    <span class="" style={{ height: "26px" }}>
+                                    <span className="" style={{ height: "26px" }}>
                                       <svg
                                         height="26"
                                         width="26"
@@ -964,7 +976,7 @@ const Onthemenu = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="pom-Product--details-cell"></div>
+                        <div className="pom-Product--details-cell"></div>
                       </div>
                     </div>
                   </Link>
@@ -974,9 +986,9 @@ const Onthemenu = () => {
           </div>
         </div>
       </div>
-      <div class="QhEpJCiEG0g0QxY1T3mc">
+      <div className="QhEpJCiEG0g0QxY1T3mc">
         <Link
-          class="MxFq23yTGUs3dHhvBYeJ d0h90AMcvhrPntuRmJ2p Et0v2WnMHJzA3RFmgKLG DBlWXU92zF7z_vt9ixbv HOtcKVJl_0ItLIpdBAtT"
+          className="MxFq23yTGUs3dHhvBYeJ d0h90AMcvhrPntuRmJ2p Et0v2WnMHJzA3RFmgKLG DBlWXU92zF7z_vt9ixbv HOtcKVJl_0ItLIpdBAtT"
           to="/pricing"
         >
           Get cookin’

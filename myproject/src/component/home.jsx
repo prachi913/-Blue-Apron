@@ -9,13 +9,14 @@ import IIcon from './IIcon';
 import { Footer } from './footer';
 import { Link } from 'react-router-dom';
 const getdata = () => {
-  return fetch("http://localhost:3000/meals")
-    .then((res) =>res.json()
-    
-  )
+  return fetch("https://average-red-vest.cyclic.app/meals").then((res) =>
+    res.json()
+  );
 }
 const getdata2 = () => {
-  return fetch("http://localhost:3000/weeklyoptions").then((res) => res.json());
+  return fetch("https://average-red-vest.cyclic.app/weeklyoptions").then(
+    (res) => res.json()
+  );
 };
 const Home = () => {
   const [data, setdata] = useState([])
