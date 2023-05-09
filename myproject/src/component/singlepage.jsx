@@ -9,12 +9,17 @@ const Singlepage = () => {
   const [data,setdata]=useState([])
   useEffect(() => {
    
-    axios.get(`http://localhost:3000/onthemenue1/${id}`)
+    axios
+      .get(`https://wild-pink-slug-sock.cyclic.app/onthemenue1/${id}`)
       .then((res) => {
-        console.log(res)
-        setdata(res.data)
-  })
+        console.log(res);
+        setdata(res.data);
+      });
   }, [id])
+
+  
+  
+  
   console.log(data)
   const {
     img,

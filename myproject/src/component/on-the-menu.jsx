@@ -10,30 +10,30 @@ import {
 } from 'react'
 
 const getdata = () => {
-  return fetch("https://average-red-vest.cyclic.app/onthemenue1").then((res) =>
-    res.json()
+  return fetch("https://wild-pink-slug-sock.cyclic.app/onthemenue1").then(
+    (res) => res.json()
   );
 }
 
-// https://average-red-vest.cyclic.app
+// https://wild-pink-slug-sock.cyclic.app
 
 const getdata1 = () => {
-  return fetch("https://average-red-vest.cyclic.app/onthemenue2").then((res) =>
+  return fetch("https://wild-pink-slug-sock.cyclic.app/onthemenue2").then((res) =>
     res.json()
   );
 };
 const getdata2 = () => {
-  return fetch("https://average-red-vest.cyclic.app/onthemenue3").then((res) =>
+  return fetch("https://wild-pink-slug-sock.cyclic.app/onthemenue3").then((res) =>
     res.json()
   );
 };
 const getdata3 = () => {
-  return fetch(" https://average-red-vest.cyclic.app/onthemenue4").then((res) =>
+  return fetch(" https://wild-pink-slug-sock.cyclic.app/onthemenue4").then((res) =>
     res.json()
   );
 };
 const getdata4 = () => {
-  return fetch(" https://average-red-vest.cyclic.app/onthemenue5").then((res) =>
+  return fetch(" https://wild-pink-slug-sock.cyclic.app/onthemenue5").then((res) =>
     res.json()
   );
 };

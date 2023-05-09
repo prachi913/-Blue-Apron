@@ -9,12 +9,12 @@ import IIcon from './IIcon';
 import { Footer } from './footer';
 import { Link } from 'react-router-dom';
 const getdata = () => {
-  return fetch("https://average-red-vest.cyclic.app/meals").then((res) =>
+  return fetch("https://wild-pink-slug-sock.cyclic.app/meals").then((res) =>
     res.json()
   );
 }
 const getdata2 = () => {
-  return fetch("https://average-red-vest.cyclic.app/weeklyoptions").then(
+  return fetch("https://wild-pink-slug-sock.cyclic.app/weeklyoptions").then(
     (res) => res.json()
   );
 };
